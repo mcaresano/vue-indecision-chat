@@ -1,8 +1,8 @@
 <template>
   <section>
     <hr>
-    <h3>Counter: {{ counter }}</h3>
-    <h3>Square: {{ counter + squareCounter }}</h3>
+    <h3 class="">Counter: {{ counter }}</h3>
+    <h3 class="">Square: {{ counter + squareCounter }}</h3>
     <button class="btn" @click="counter++">+1</button>
     <button class="btn" @click="counter--">-1</button>
   </section> 
